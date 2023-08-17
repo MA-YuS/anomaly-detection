@@ -86,38 +86,5 @@ if __name__ == '__main__':
 
 
 
-    # '注意：车站名称的顺序 和 数据文件路径的顺序 必须严格一致 一一对应'
-    # station_names = [
-    #     '3_洪园站', '3_星桥站', '4_明石路', '6_公望街站', '6_昙花庵站', '8_仓北村站', '9_江河汇站',
-    # ]
-    # date = '20230815'
-    #
-    # origin_folders = [
-    #     fr'D:\sql-data\每日数据\{date}\3号线20230817\export_data_2023081700\10.27.20.1_2023081700\exported_data_2023081700', #洪园站Z20
-    #     r'D:\sql-data\每日数据\20230817\3号线20230817\export_data_2023081700\10.27.44.1_2023081700\exported_data_2023081700', #星桥站Z44
-    #     r'D:\sql-data\每日数据\20230817\4号线20230817\export_data_2023081700\10.37.19.1_2023081700\exported_data_2023081700', #明石路Z19
-    #     r'D:\sql-data\每日数据\20230817\6号线\export_data_2023081700\10.57.12.1_2023081700\exported_data_2023081700', #公望街站Z12
-    #     r'D:\sql-data\每日数据\20230817\6号线\export_data_2023081700\10.57.40.1_2023081700\exported_data_2023081700', #昙花庵站Z40
-    #     r'D:\sql-data\每日数据\20230817\8号线20230817\export_data_2023081700\10.77.47.1_2023081700\exported_data_2023081700', #仓北村站Z47
-    #     r'D:\sql-data\每日数据\20230817\9号线20230817\export_data_2023081700\10.87.43.1_2023081700\exported_data_2023081700', #江河汇站Z43
-    # ]
-    #
-    # for i in range(len(station_names)):
-    #     filename = station_names[i]
-    #     print('-----------------------------------------------------------------------------------')
-    #     print(f'----------------------------{filename}----------------------------------')
-    #     filenames = []  # 声明一个空列表，来保存文本文件数据
-    #     names_folder = fr'D:\Energy consumption calculation\data\1能耗计算配置文件\{filename}.txt'
-    #     file = open(names_folder, 'r')  # 打开文本文件
-    #     # 遍历文本文件的每一行，strip可以移除字符串头尾指定的字符（默认为空格或换行符）或字符序列
-    #     for line in file.readlines():
-    #         line = line.strip()
-    #         name = line.split(',')[0]  # 将每一行以空格为分隔符转换成列表
-    #         filenames.append(name)
-    #     file.close()  # 依旧是关闭文件
-    #
-    #     origin_folder = origin_folders[i]
-    #     destination_folder = fr"D:\Energy consumption calculation\data\{filename}\0816"
-    #     batch_copy_files(filenames, origin_folder, destination_folder)
 
 
